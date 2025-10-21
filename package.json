@@ -1,0 +1,33 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "main": "/src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano91nunes/apirest_livros.git"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Adriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriano91nunes/apirest_livros/issues"
+  },
+  "homepage": "https://github.com/adriano91nunes/apirest_livros#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
