@@ -13,7 +13,7 @@ module.exports = router;
 const authMiddleware = require('../middlewares/authMiddleware');
 
 // A partir daqui, todas as rotas precisam de autenticação
-router.use(authMiddleware);
+//router.use(authMiddleware);
 
 // Rota para o usuário ver sua própria lista de leitura
 router.get('/leituras', usuarioController.getMinhasLeituras);
